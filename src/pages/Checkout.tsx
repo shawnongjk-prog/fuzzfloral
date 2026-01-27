@@ -42,25 +42,28 @@ const Checkout = () => {
 
     const orderData = {
       ...formData,
-      items: items.map((item) => ({
+      items: JSON.stringify(items.map((item) => ({
         name: item.name,
         quantity: item.quantity,
         price: item.price,
         stalks: item.stalks,
-      })),
-      subtotal,
+      }))),
+      subtotal: subtotal.toString(),
       currency: COMPANY.currency,
       timestamp: new Date().toISOString(),
     };
+
+    // Convert to URL-encoded form data for Google Apps Script compatibility
+    const formDataEncoded = new URLSearchParams();
+    Object.entries(orderData).forEach(([key, value]) => {
+      formDataEncoded.append(key, value);
+    });
 
     try {
       await fetch(COMPANY.webhookUrl, {
         method: "POST",
         mode: "no-cors",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(orderData),
+        body: formDataEncoded,
       });
 
       setSubmitted(true);
