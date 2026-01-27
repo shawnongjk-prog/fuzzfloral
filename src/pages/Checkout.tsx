@@ -54,30 +54,21 @@ const Checkout = () => {
     };
 
     // Convert to URL-encoded form data for Google Apps Script compatibility
-try {
-  await fetch(COMPANY.googleSheetWebhook, {
-    method: "POST",
-    body: JSON.stringify({
-      customerName: formData.customerName,
-      customerPhone: formData.phone,
-      customerEmail: formData.email,
-      recipientName: formData.recipientName,
-      deliveryAddress: formData.deliveryAddress,
-      specialMessage: formData.specialMessage,
-      orderSummary: orderDetails,
-      subtotal: total,
-      currency: COMPANY.currency,
-    }),
-  });
+    const formDataEncoded = new URLSearchParams();
+    Object.entries(orderData).forEach(([key, value]) => {
+      formDataEncoded.append(key, value);
+    });
 
-  setIsSubmitted(true);
-} catch (error) {
-  console.error("Submission error:", error);
-  alert("Failed to submit order. Please try again.");
-} finally {
-      setIsSubmitting(false);
-    }
-  };
+    try {
+      await fetch(COMPANY.webhookUrl, {
+        method: "POST",
+        mode: "no-cors",
+        body: formDataEncoded,
+      });
+
+      setSubmitted(true);
+    } catch (error) {
+      console.error("Error submitting order:", error);
       // Still show success since we're using no-cors mode
       setSubmitted(true);
     } finally {
