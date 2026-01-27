@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        brand: ['"Dancing Script"', 'cursive'],
+        brand: ['"Pacifico"', 'cursive'],
         heading: ['"Quicksand"', 'sans-serif'],
         body: ['"Quicksand"', 'sans-serif'],
       },
