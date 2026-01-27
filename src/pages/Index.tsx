@@ -1,12 +1,58 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { products } from "@/data/products";
+import { COMPANY } from "@/config";
+import Navbar from "@/components/Navbar";
+import ProductCard from "@/components/ProductCard";
+import AboutSection from "@/components/AboutSection";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+
+      {/* Hero Section */}
+      <section className="py-12 md:py-20 bg-gradient-to-b from-lavender-light to-background">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="font-brand text-5xl md:text-7xl text-primary mb-4">
+            {COMPANY.name}
+          </h1>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto">
+            {COMPANY.tagline}
+          </p>
+        </div>
+      </section>
+
+      {/* Product Catalog */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="section-title text-center mb-10">Our Bouquets</h2>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <AboutSection />
+
+      {/* Footer */}
+      <footer className="py-8 border-t border-border">
+        <div className="container mx-auto px-4 text-center">
+          <p className="font-brand text-2xl text-primary mb-2">{COMPANY.name}</p>
+          <p className="text-sm text-muted-foreground">
+            Handcrafted with love in Singapore
+          </p>
+          <p className="text-xs text-muted-foreground mt-4">
+            © {new Date().getFullYear()} {COMPANY.name}. All rights reserved.
+          </p>
+        </div>
+      </footer>
+
+      {/* Floating WhatsApp */}
+      <FloatingWhatsApp />
     </div>
   );
 };
