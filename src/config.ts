@@ -8,7 +8,7 @@ export const COMPANY = {
   paynowNumber: "91440756",
   currency: "SGD",
   tagline: "Everlasting flowers",
-  webhookUrl: "https://script.google.com/macros/s/AKfycbwq8NESV4i8piIWBNf4hta-FNh6ZxYy30RNsF5Wf6XJEhhGofAUyXqrZmLKyR6LsI4nHA/exec"
+  webhookUrl: "https://script.google.com/macros/s/AKfycbwqF6dCp4aSlxk_H-SVKgniuFzSEfEMuLked3xOo1ja8Z_Jr0dbOKRtE2sSERaz3yTskg/exec"
 };
 
 export const formatPrice = (price: number): string => {
