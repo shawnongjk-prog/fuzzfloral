@@ -63,9 +63,9 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         cream: "hsl(var(--cream))",
-        lavender: {
-          DEFAULT: "hsl(var(--lavender))",
-          light: "hsl(var(--lavender-light))",
+        khaki: {
+          DEFAULT: "hsl(var(--khaki))",
+          light: "hsl(var(--khaki-light))",
         },
         blush: {
           DEFAULT: "hsl(var(--blush))",

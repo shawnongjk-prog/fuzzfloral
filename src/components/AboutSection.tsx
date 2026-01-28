@@ -2,7 +2,7 @@ import { COMPANY } from "@/config";
 
 const AboutSection = () => {
   return (
-    <section className="py-16 bg-lavender-light">
+    <section className="py-16 bg-khaki-light">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="section-title mb-6">About {COMPANY.name}</h2>
@@ -22,7 +22,7 @@ const AboutSection = () => {
 
           <div className="mt-8 flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-lavender"></span>
+              <span className="w-2 h-2 rounded-full bg-khaki"></span>
               Handcrafted with Love
             </div>
             <div className="flex items-center gap-2">
