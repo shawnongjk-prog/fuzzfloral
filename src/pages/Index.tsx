@@ -11,7 +11,7 @@ const Index = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="py-12 md:py-20 bg-gradient-to-b from-lavender-light to-background">
+      <section className="py-12 md:py-20 bg-gradient-to-b from-khaki-light to-background">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-brand text-5xl md:text-7xl text-primary mb-4">
             {COMPANY.name}

@@ -20,9 +20,9 @@
     --popover: 40 40% 99%;
     --popover-foreground: 20 15% 25%;
 
-    /* Primary - Soft Lavender */
-    --primary: 270 35% 65%;
-    --primary-foreground: 0 0% 100%;
+    /* Primary - Light Khaki */
+    --primary: 45 35% 55%;
+    --primary-foreground: 45 20% 15%;
 
     /* Secondary - Sage Green */
     --secondary: 130 20% 88%;
@@ -43,24 +43,24 @@
     /* Borders & Inputs */
     --border: 30 20% 88%;
     --input: 30 20% 88%;
-    --ring: 270 35% 65%;
+    --ring: 45 35% 55%;
 
     --radius: 0.75rem;
 
     /* Sidebar */
     --sidebar-background: 40 33% 97%;
     --sidebar-foreground: 20 15% 25%;
-    --sidebar-primary: 270 35% 65%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 350 45% 92%;
-    --sidebar-accent-foreground: 350 40% 35%;
+    --sidebar-primary: 45 35% 55%;
+    --sidebar-primary-foreground: 45 20% 15%;
+    --sidebar-accent: 45 40% 92%;
+    --sidebar-accent-foreground: 45 35% 25%;
     --sidebar-border: 30 20% 88%;
-    --sidebar-ring: 270 35% 65%;
+    --sidebar-ring: 45 35% 55%;
 
     /* Custom FuzzFloral tokens */
     --cream: 40 40% 96%;
-    --lavender: 270 35% 65%;
-    --lavender-light: 270 40% 92%;
+    --khaki: 45 35% 55%;
+    --khaki-light: 45 40% 90%;
     --blush: 350 45% 85%;
     --blush-light: 350 50% 95%;
     --sage: 130 20% 75%;
@@ -76,27 +76,27 @@
     --card-foreground: 40 33% 95%;
     --popover: 20 15% 12%;
     --popover-foreground: 40 33% 95%;
-    --primary: 270 40% 70%;
-    --primary-foreground: 20 15% 10%;
+    --primary: 45 40% 60%;
+    --primary-foreground: 45 20% 10%;
     --secondary: 130 20% 20%;
     --secondary-foreground: 130 30% 85%;
     --muted: 20 15% 18%;
     --muted-foreground: 30 15% 60%;
-    --accent: 350 40% 25%;
-    --accent-foreground: 350 50% 90%;
+    --accent: 45 35% 25%;
+    --accent-foreground: 45 50% 90%;
     --destructive: 0 55% 45%;
     --destructive-foreground: 0 0% 100%;
     --border: 20 15% 20%;
     --input: 20 15% 20%;
-    --ring: 270 40% 70%;
+    --ring: 45 40% 60%;
     --sidebar-background: 20 15% 8%;
     --sidebar-foreground: 40 33% 95%;
-    --sidebar-primary: 270 40% 70%;
-    --sidebar-primary-foreground: 20 15% 10%;
-    --sidebar-accent: 350 35% 20%;
-    --sidebar-accent-foreground: 350 50% 90%;
+    --sidebar-primary: 45 40% 60%;
+    --sidebar-primary-foreground: 45 20% 10%;
+    --sidebar-accent: 45 35% 20%;
+    --sidebar-accent-foreground: 45 50% 90%;
     --sidebar-border: 20 15% 20%;
-    --sidebar-ring: 270 40% 70%;
+    --sidebar-ring: 45 40% 60%;
   }
 }
 
@@ -117,7 +117,7 @@
 @layer components {
   .brand-name {
     @apply font-brand text-3xl md:text-4xl;
-    color: hsl(var(--lavender));
+    color: hsl(var(--khaki));
   }
 
   .section-title {
@@ -145,14 +145,14 @@
   }
 
   .pastel-card {
-    @apply bg-gradient-to-br from-lavender-light to-blush-light rounded-2xl p-6;
+    @apply bg-gradient-to-br from-khaki-light to-blush-light rounded-2xl p-6;
   }
 }
 
 @layer utilities {
   .bg-cream { background-color: hsl(var(--cream)); }
-  .bg-lavender { background-color: hsl(var(--lavender)); }
-  .bg-lavender-light { background-color: hsl(var(--lavender-light)); }
+  .bg-khaki { background-color: hsl(var(--khaki)); }
+  .bg-khaki-light { background-color: hsl(var(--khaki-light)); }
   .bg-blush { background-color: hsl(var(--blush)); }
   .bg-blush-light { background-color: hsl(var(--blush-light)); }
   .bg-sage { background-color: hsl(var(--sage)); }
@@ -160,10 +160,10 @@
   .bg-peach { background-color: hsl(var(--peach)); }
   .bg-sky { background-color: hsl(var(--sky)); }
   
-  .text-lavender { color: hsl(var(--lavender)); }
+  .text-khaki { color: hsl(var(--khaki)); }
   .text-blush { color: hsl(var(--blush)); }
   .text-sage { color: hsl(var(--sage)); }
   
-  .border-lavender { border-color: hsl(var(--lavender)); }
+  .border-khaki { border-color: hsl(var(--khaki)); }
   .border-blush { border-color: hsl(var(--blush)); }
 }
