@@ -7,7 +7,7 @@ export const COMPANY = {
   whatsappLink: "https://wa.me/91440756",
   paynowNumber: "91440756",
   currency: "SGD",
-  tagline: "Handmade flowers that last forever",
+  tagline: "Everlasting flowers",
   webhookUrl: "https://script.google.com/macros/s/AKfycbwq8NESV4i8piIWBNf4hta-FNh6ZxYy30RNsF5Wf6XJEhhGofAUyXqrZmLKyR6LsI4nHA/exec"
 };
 
