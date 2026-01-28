@@ -59,12 +59,13 @@ const Checkout = () => {
       formDataEncoded.append(key, value);
     });
 
-    try {
-      await fetch(COMPANY.webhookUrl, {
-        method: "POST",
-        mode: "no-cors",
-        body: formDataEncoded,
-      });
+await fetch(COMPANY.webhookUrl, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded",
+  },
+  body: formDataEncoded.toString(),
+});
 
       setSubmitted(true);
     } catch (error) {
