@@ -59,7 +59,8 @@ const Checkout = () => {
       formDataEncoded.append(key, value);
     });
 
-await fetch(COMPANY.webhookUrl, {
+    try {
+      await fetch(COMPANY.webhookUrl, {
   method: "POST",
   headers: {
     "Content-Type": "application/x-www-form-urlencoded",
