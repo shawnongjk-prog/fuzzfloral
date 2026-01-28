@@ -54,20 +54,20 @@ const Checkout = () => {
     };
 
     // Convert to URL-encoded form data for Google Apps Script compatibility
-fetch(WEBHOOK_URL, {
-  method: "POST",
-  mode: "no-cors",
-  headers: {
-    "Content-Type": "application/x-www-form-urlencoded"
-  },
-  body: new URLSearchParams({
-    customerName,
-    phone,
-    address,
-    total
-  })
-});
+    const formDataEncoded = new URLSearchParams();
+    Object.entries(orderData).forEach(([key, value]) => {
+      formDataEncoded.append(key, value);
+    });
 
+    try {
+      await fetch(COMPANY.webhookUrl, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: formDataEncoded.toString(),
+      });
       setSubmitted(true);
     } catch (error) {
       console.error("Error submitting order:", error);
