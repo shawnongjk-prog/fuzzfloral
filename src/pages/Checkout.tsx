@@ -60,14 +60,15 @@ const Checkout = () => {
     });
 
     try {
-      await fetch(COMPANY.webhookUrl, {
-        method: "POST",
-        mode: "no-cors",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: formDataEncoded.toString(),
-      });
+await fetch(COMPANY.webhookUrl, {
+  method: "POST",
+  mode: "no-cors",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded",
+  },
+  body: formDataEncoded.toString(),
+});
+
       setSubmitted(true);
     } catch (error) {
       console.error("Error submitting order:", error);
