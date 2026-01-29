@@ -62,7 +62,6 @@ const Checkout = () => {
     try {
 await fetch(COMPANY.webhookUrl, {
   method: "POST",
-  mode: "no-cors",
   headers: {
     "Content-Type": "application/x-www-form-urlencoded",
   },
