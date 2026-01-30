@@ -1,6 +1,7 @@
 import { products } from "@/data/products";
 import { COMPANY } from "@/config";
 import Navbar from "@/components/Navbar";
+import DeliveryBanner from "@/components/DeliveryBanner";
 import ProductCard from "@/components/ProductCard";
 import CustomBouquetBuilder from "@/components/CustomBouquetBuilder";
 import AboutSection from "@/components/AboutSection";
@@ -9,6 +10,7 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <DeliveryBanner />
       <Navbar />
 
       {/* Hero Section */}
