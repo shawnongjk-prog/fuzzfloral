@@ -21,7 +21,7 @@ const DeliveryBanner = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="bg-primary text-primary-foreground py-2 px-4 relative">
+    <div className="bg-primary/75 text-primary-foreground py-2 px-4 relative">
       <div className="container mx-auto text-center text-sm font-medium">
         🚚 Free Islandwide Delivery for orders over $70!
       </div>
