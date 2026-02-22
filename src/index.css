@@ -8,65 +8,65 @@
 
 @layer base {
   :root {
-    /* Cream background */
-    --background: 36 39% 95%;
-    --foreground: 30 20% 20%;
+    /* Cream-yellow background matching #FDFBD4 */
+    --background: 54 82% 91%;
+    --foreground: 40 30% 20%;
 
-    /* Card - warm cream */
-    --card: 36 45% 97%;
-    --card-foreground: 30 20% 20%;
+    /* Card */
+    --card: 54 80% 94%;
+    --card-foreground: 40 30% 20%;
 
     /* Popover */
-    --popover: 36 45% 97%;
-    --popover-foreground: 30 20% 20%;
+    --popover: 54 80% 94%;
+    --popover-foreground: 40 30% 20%;
 
-    /* Primary - Warm Cream-Brown */
-    --primary: 30 35% 45%;
-    --primary-foreground: 36 40% 96%;
+    /* Primary - Warm golden brown */
+    --primary: 35 45% 42%;
+    --primary-foreground: 54 80% 94%;
 
-    /* Secondary - Light Cream */
-    --secondary: 36 30% 90%;
-    --secondary-foreground: 30 25% 30%;
+    /* Secondary - Lighter cream */
+    --secondary: 50 50% 87%;
+    --secondary-foreground: 40 30% 25%;
 
-    /* Muted - Soft Cream */
-    --muted: 36 25% 91%;
-    --muted-foreground: 30 15% 45%;
+    /* Muted */
+    --muted: 50 40% 88%;
+    --muted-foreground: 40 20% 45%;
 
-    /* Accent - Warm Tan */
-    --accent: 30 30% 82%;
-    --accent-foreground: 30 35% 25%;
+    /* Accent - Warm tan */
+    --accent: 40 40% 80%;
+    --accent-foreground: 40 35% 22%;
 
     /* Destructive */
     --destructive: 0 65% 55%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 30 25% 85%;
-    --input: 30 25% 85%;
-    --ring: 30 35% 45%;
+    --border: 45 35% 82%;
+    --input: 45 35% 82%;
+    --ring: 35 45% 42%;
 
     --radius: 0.75rem;
 
     /* Sidebar */
-    --sidebar-background: 36 39% 93%;
-    --sidebar-foreground: 30 20% 20%;
-    --sidebar-primary: 30 35% 45%;
-    --sidebar-primary-foreground: 36 40% 96%;
-    --sidebar-accent: 36 35% 89%;
-    --sidebar-accent-foreground: 30 30% 25%;
-    --sidebar-border: 30 25% 85%;
-    --sidebar-ring: 30 35% 45%;
+    --sidebar-background: 54 75% 89%;
+    --sidebar-foreground: 40 30% 20%;
+    --sidebar-primary: 35 45% 42%;
+    --sidebar-primary-foreground: 54 80% 94%;
+    --sidebar-accent: 50 45% 85%;
+    --sidebar-accent-foreground: 40 30% 22%;
+    --sidebar-border: 45 35% 82%;
+    --sidebar-ring: 35 45% 42%;
 
     /* Custom FuzzFloral tokens */
-    --cream: 36 40% 94%;
-    --khaki: 30 30% 50%;
-    --khaki-light: 36 35% 90%;
-    --blush: 20 40% 85%;
-    --blush-light: 30 45% 93%;
-    --sage: 30 15% 70%;
-    --sage-light: 36 25% 90%;
-    --peach: 25 50% 85%;
-    --sky: 200 30% 82%;
+    --cream: 54 80% 91%;
+    --khaki: 35 40% 48%;
+    --khaki-light: 50 55% 87%;
+    --blush: 30 50% 83%;
+    --blush-light: 45 55% 90%;
+    --sage: 40 20% 68%;
+    --sage-light: 50 40% 88%;
+    --peach: 30 55% 82%;
+    --sky: 200 30% 80%;
   }
 
   .dark {
