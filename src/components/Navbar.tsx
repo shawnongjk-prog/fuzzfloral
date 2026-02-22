@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { ShoppingBag } from "lucide-react";
 import { useCart } from "@/context/CartContext";
-import logo from "@/assets/fuzzfloral-logo.jpg";
+import logo from "@/assets/fuzzfloral-logo.png";
 
 const Navbar = () => {
   const { totalItems } = useCart();
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Brand Logo */}
           <Link to="/" className="hover:opacity-80 transition-opacity">
-            <img src={logo} alt="FuzzFloral" className="h-14 w-auto" />
+            <img src={logo} alt="FuzzFloral" className="h-20 w-auto" />
           </Link>
 
           {/* Navigation Links */}
