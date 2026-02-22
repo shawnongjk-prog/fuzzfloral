@@ -6,6 +6,7 @@ import ProductCard from "@/components/ProductCard";
 import CustomBouquetBuilder from "@/components/CustomBouquetBuilder";
 import AboutSection from "@/components/AboutSection";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import logo from "@/assets/fuzzfloral-logo.jpg";
 
 const Index = () => {
   return (
@@ -16,9 +17,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="py-12 md:py-20 bg-gradient-to-b from-khaki-light to-background">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="font-brand text-5xl md:text-7xl text-primary mb-4">
-            {COMPANY.name}
-          </h1>
+          <img src={logo} alt="FuzzFloral" className="h-28 md:h-40 w-auto mx-auto mb-4" />
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto">
             {COMPANY.tagline}
           </p>
@@ -50,7 +49,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-4 text-center">
-          <p className="font-brand text-2xl text-primary mb-2">{COMPANY.name}</p>
+          <img src={logo} alt="FuzzFloral" className="h-16 w-auto mx-auto mb-2" />
           <p className="text-sm text-muted-foreground">
             Handcrafted with love in Singapore
           </p>

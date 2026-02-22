@@ -20,8 +20,8 @@
     --popover: 54 80% 94%;
     --popover-foreground: 40 30% 20%;
 
-    /* Primary - Warm golden brown */
-    --primary: 35 45% 42%;
+    /* Primary - Lighter warm brown */
+    --primary: 30 30% 55%;
     --primary-foreground: 54 80% 94%;
 
     /* Secondary - Lighter cream */
@@ -43,23 +43,23 @@
     /* Borders & Inputs */
     --border: 45 35% 82%;
     --input: 45 35% 82%;
-    --ring: 35 45% 42%;
+    --ring: 30 30% 55%;
 
     --radius: 0.75rem;
 
     /* Sidebar */
     --sidebar-background: 54 75% 89%;
     --sidebar-foreground: 40 30% 20%;
-    --sidebar-primary: 35 45% 42%;
-    --sidebar-primary-foreground: 54 80% 94%;
+    --sidebar-primary: 30 30% 55%;
+    --sidebar-primary-foreground: 54 80% 96%;
     --sidebar-accent: 50 45% 85%;
     --sidebar-accent-foreground: 40 30% 22%;
     --sidebar-border: 45 35% 82%;
-    --sidebar-ring: 35 45% 42%;
+    --sidebar-ring: 30 30% 55%;
 
     /* Custom FuzzFloral tokens */
     --cream: 54 80% 91%;
-    --khaki: 35 40% 48%;
+    --khaki: 30 28% 55%;
     --khaki-light: 50 55% 87%;
     --blush: 30 50% 83%;
     --blush-light: 45 55% 90%;

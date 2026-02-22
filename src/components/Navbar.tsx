@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { ShoppingBag } from "lucide-react";
-import { COMPANY } from "@/config";
 import { useCart } from "@/context/CartContext";
+import logo from "@/assets/fuzzfloral-logo.jpg";
 
 const Navbar = () => {
   const { totalItems } = useCart();
@@ -9,11 +9,11 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-40 bg-background/95 backdrop-blur-sm border-b border-border">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
-          {/* Brand */}
-          <Link to="/" className="brand-name hover:opacity-80 transition-opacity">
-            {COMPANY.name}
+          {/* Brand Logo */}
+          <Link to="/" className="hover:opacity-80 transition-opacity">
+            <img src={logo} alt="FuzzFloral" className="h-14 w-auto" />
           </Link>
 
           {/* Navigation Links */}
