@@ -37,12 +37,4 @@ export const products: Product[] = [
     price: 33,
     image: purpleDaisyTulipBouquet,
   },
-  {
-    id: "pink-daisy-lavender",
-    name: "Pink Serenity",
-    description: "Romantic daisy and lavender gift, perfect for anniversaries",
-    stalks: 5,
-    price: 30,
-    image: pinkDaisyLavenderBouquet,
-  },
 ];
