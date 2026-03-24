@@ -2,7 +2,6 @@ import lavenderLilyBouquet from "@/assets/lavender-lily-bouquet.jpg";
 import babyBlueLilyBouquet from "@/assets/baby-blue-lily-bouquet.jpg";
 import purpleDaisyTulipBouquet from "@/assets/purple-daisy-tulip-bouquet.jpg";
 import pinkDaisyLavenderBouquet from "@/assets/pink-daisy-lavender-bouquet.webp";
-import orangeTulipWhiteDaisyBouquet from "@/assets/orange-tulip-white-daisy-bouquet.webp";
 
 export interface Product {
   id: string;
@@ -45,13 +44,5 @@ export const products: Product[] = [
     stalks: 5,
     price: 30,
     image: pinkDaisyLavenderBouquet,
-  },
-  {
-    id: "orange-tulip-white-daisy",
-    name: "Orange Tulip & White Daisy Bouquet",
-    description: "Summer flower artisanal layout with vibrant tulips and daisies",
-    stalks: 6,
-    price: 33,
-    image: orangeTulipWhiteDaisyBouquet,
   },
 ];
