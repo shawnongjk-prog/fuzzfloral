@@ -1,7 +1,6 @@
 import lavenderLilyBouquet from "@/assets/lavender-lily-bouquet.jpg";
 import babyBlueLilyBouquet from "@/assets/baby-blue-lily-bouquet.jpg";
 import purpleDaisyTulipBouquet from "@/assets/purple-daisy-tulip-bouquet.jpg";
-import pinkDaisyLavenderBouquet from "@/assets/pink-daisy-lavender-bouquet.webp";
 
 export interface Product {
   id: string;
