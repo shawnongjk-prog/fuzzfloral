@@ -15,7 +15,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "lavender-lily",
-    name: "Lavender Lily Bouquet",
+    name: "Petal Poems",
     description: "Handmade pipe cleaner bouquet featuring soft lavender lilies with delicate filler flowers",
     stalks: 5,
     price: 30,
@@ -23,7 +23,7 @@ export const products: Product[] = [
   },
   {
     id: "baby-blue-lily",
-    name: "Baby Blue Lily Bouquet",
+    name: "Frosted Petals",
     description: "Minimal pastel blue bouquet, perfect for birthdays or baby showers",
     stalks: 7,
     price: 36,
@@ -31,7 +31,7 @@ export const products: Product[] = [
   },
   {
     id: "purple-daisy-tulip",
-    name: "Purple Daisy & Tulip Bouquet",
+    name: "Pink Serenity",
     description: "Cheerful handmade bouquet with purple daisies and tulips",
     stalks: 6,
     price: 33,
@@ -39,7 +39,7 @@ export const products: Product[] = [
   },
   {
     id: "pink-daisy-lavender",
-    name: "Pink Daisy & Lavender Bouquet",
+    name: "Pink Serenity",
     description: "Romantic daisy and lavender gift, perfect for anniversaries",
     stalks: 5,
     price: 30,
