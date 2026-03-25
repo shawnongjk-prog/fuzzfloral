@@ -28,10 +28,6 @@ export const flowerStalks: FlowerStalk[] = [
 ];
 
 export const wrappingColors: WrappingColor[] = [
-  { id: "kraft", name: "Kraft Brown", colorClass: "bg-amber-200" },
+  { id: "black", name: "black", colorClass: "bg-black border border-border" },
   { id: "white", name: "White", colorClass: "bg-white border border-border" },
-  { id: "pink", name: "Blush Pink", colorClass: "bg-pink-200" },
-  { id: "lavender", name: "Lavender", colorClass: "bg-purple-200" },
-  { id: "sage", name: "Sage Green", colorClass: "bg-emerald-200" },
-  { id: "cream", name: "Cream", colorClass: "bg-amber-50" },
 ];
