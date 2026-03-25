@@ -7,12 +7,6 @@ import CustomBouquetBuilder from "@/components/CustomBouquetBuilder";
 import AboutSection from "@/components/AboutSection";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import logo from "@/assets/fuzzfloral-logo.png";
-import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
-
-{
-.font-tagline
-  font-family: 'Playfair Display', serif;
-}
 
 const Index = () => {
   return (
@@ -24,7 +18,7 @@ const Index = () => {
       <section className="py-12 md:py-20 bg-gradient-to-b from-khaki-light to-background">
         <div className="container mx-auto px-4 text-center">
           <img src={logo} alt="FuzzFloral" className="h-60 md:h-84 w-auto mx-auto mb-4" />
-          <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto font-tagline">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto">
             {COMPANY.tagline}
           </p>
         </div>
