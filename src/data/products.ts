@@ -25,7 +25,7 @@ export const products: Product[] = [
     name: "Frosted Petals",
     description: "Minimal pastel blue bouquet, perfect for birthdays or baby showers",
     stalks: 7,
-    price: 36,
+    price: 30,
     image: babyBlueLilyBouquet,
   },
   {
