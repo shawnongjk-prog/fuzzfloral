@@ -13,7 +13,7 @@ export interface WrappingColor {
 export const PRICE_PER_STALK = 8;
 
 export const flowerStalks: FlowerStalk[] = [
-  { id: "tulip-pink", name: "Pink Tulip", color: "#E88B9C" },
+  { id: "light-blue", name: "Light Blue", color: "#8FDBFF" },
   { id: "tulip-red", name: "Red Tulip", color: "#DC2626" },
   { id: "poppy-orange", name: "Orange Poppy", color: "#F97316" },
   { id: "poppy-yellow", name: "Yellow Poppy", color: "#FACC15" },
