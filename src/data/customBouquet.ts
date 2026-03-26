@@ -1,4 +1,4 @@
-/* export interface FlowerStalk {
+export interface FlowerStalk {
   id: string;
   name: string;
   color: string;
@@ -32,4 +32,3 @@ export const wrappingColors: WrappingColor[] = [
   { id: "white", name: "White", colorClass: "bg-white border border-border" },
 ];
 
-*/
