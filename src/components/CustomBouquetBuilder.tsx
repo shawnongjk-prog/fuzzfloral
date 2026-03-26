@@ -1,4 +1,4 @@
-import { useState } from "react";
+/* import { useState } from "react";
 import { Plus, Minus, ShoppingBag, Check, X } from "lucide-react";
 import { flowerStalks, wrappingColors, PRICE_PER_STALK, FlowerStalk } from "@/data/customBouquet";
 import { useCart } from "@/context/CartContext";
@@ -239,3 +239,4 @@ const CustomBouquetBuilder = () => {
 };
 
 export default CustomBouquetBuilder;
+*/
