@@ -1,4 +1,4 @@
-/* export interface FlowerStalk {
+ export interface FlowerStalk {
   id: string;
   name: string;
   color: string;
