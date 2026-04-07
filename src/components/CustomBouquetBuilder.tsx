@@ -1,4 +1,4 @@
-import { useState } from "react";
+/* import { useState } from "react";
 import { Plus, Minus, ShoppingBag, Check, X } from "lucide-react";
 import { flowerStalks, wrappingColors, PRICE_PER_STALK, FlowerStalk } from "@/data/customBouquet";
 import { useCart } from "@/context/CartContext";
@@ -73,7 +73,7 @@ const CustomBouquetBuilder = () => {
     <article className="card-product overflow-hidden flex flex-col lg:col-span-2 xl:col-span-3">
       <div className="grid md:grid-cols-2 gap-6">
         {/* Product Image */}
-        <div className="aspect-square overflow-hidden bg-muted rounded-lg">
+     /*   <div className="aspect-square overflow-hidden bg-muted rounded-lg">
           <img
             src={customBouquetImage}
             alt="Custom bouquet flower options"
@@ -83,7 +83,7 @@ const CustomBouquetBuilder = () => {
         </div>
 
         {/* Builder Section */}
-        <div className="p-4 flex flex-col">
+      /*  <div className="p-4 flex flex-col">
           <h3 className="font-heading font-semibold text-xl text-foreground mb-2">
             Build Your Own Bouquet
           </h3>
@@ -98,7 +98,7 @@ const CustomBouquetBuilder = () => {
           </p>
 
           {/* Flower Stalk Selection */}
-          <div className="mb-4">
+        /*  <div className="mb-4">
             <h4 className="text-sm font-medium text-foreground mb-2">Choose Your Flowers:</h4>
             <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
               {flowerStalks.map((stalk) => {
@@ -127,7 +127,7 @@ const CustomBouquetBuilder = () => {
           </div>
 
           {/* Selected Stalks Summary */}
-          {selectedStalks.length > 0 && (
+        /*  {selectedStalks.length > 0 && (
             <div className="mb-4 p-3 bg-muted rounded-lg">
               <h4 className="text-sm font-medium text-foreground mb-2">Your Selection:</h4>
               <div className="flex flex-wrap gap-2">
@@ -175,7 +175,7 @@ const CustomBouquetBuilder = () => {
           )}
 
           {/* Wrapping Color Selection */}
-          <div className="mb-4">
+        /*  <div className="mb-4">
             <h4 className="text-sm font-medium text-foreground mb-2">Wrapping Color:</h4>
             <div className="flex flex-wrap gap-2">
               {wrappingColors.map((color) => (
@@ -197,7 +197,7 @@ const CustomBouquetBuilder = () => {
           </div>
 
           {/* Total & Add to Cart */}
-          <div className="mt-auto pt-4 border-t border-border">
+       /*   <div className="mt-auto pt-4 border-t border-border">
             <div className="flex items-center justify-between mb-4">
               <span className="text-muted-foreground">
                 {totalStalks} stalk{totalStalks !== 1 ? "s" : ""} selected
