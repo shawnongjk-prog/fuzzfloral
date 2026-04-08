@@ -3,7 +3,7 @@ import { COMPANY } from "@/config";
 import Navbar from "@/components/Navbar";
 import DeliveryBanner from "@/components/DeliveryBanner";
 import ProductCard from "@/components/ProductCard";
-import CustomBouquetBuilder from "@/components/CustomBouquetBuilder";
+/* import CustomBouquetBuilder from "@/components/CustomBouquetBuilder"; */
 import AboutSection from "@/components/AboutSection";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import logo from "@/assets/fuzzfloral-logo.png";
@@ -36,8 +36,8 @@ const Index = () => {
           </div>
 
           {/* Custom Bouquet Builder */}
-          <div className="mt-10">
-            <h2 className="section-title text-center mb-6">Create Your Own</h2>
+          <div className="mt-10"> 
+            <h2 className="section-title text-center mb-6">Create Your Own</h2> 
             <CustomBouquetBuilder />
           </div>
         </div>
