@@ -34,13 +34,6 @@ const Index = () => {
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
-
-      {/* Custom Bouquet Builder */}
-          <div className="mt-10">
-            <h2 className="section-title text-center mb-6">Create Your Own</h2>
-            <CustomBouquetBuilder />
-          </div>
-        </div>
       </section>
 
       {/* About Section */}
