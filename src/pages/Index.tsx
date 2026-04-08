@@ -3,7 +3,7 @@ import { COMPANY } from "@/config";
 import Navbar from "@/components/Navbar";
 import DeliveryBanner from "@/components/DeliveryBanner";
 import ProductCard from "@/components/ProductCard";
-import CustomBouquetBuilder from "@/components/CustomBouquetBuilder";
+/* import CustomBouquetBuilder from "@/components/CustomBouquetBuilder"; */
 import AboutSection from "@/components/AboutSection";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import logo from "@/assets/fuzzfloral-logo.png";
@@ -33,10 +33,10 @@ const Index = () => {
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
-          </div>
-          </div>
+        </div>
+      </section>
 
-      (/* About Section */}
+        {/* About Section */}
       <AboutSection />
 
       {/* Footer */}
