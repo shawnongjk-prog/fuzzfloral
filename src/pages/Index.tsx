@@ -35,10 +35,8 @@ const Index = () => {
             ))}
           </div>
           </div>
-        </div>
-      </section>
 
-      {/* About Section */}
+      (/* About Section */}
       <AboutSection />
 
       {/* Footer */}
