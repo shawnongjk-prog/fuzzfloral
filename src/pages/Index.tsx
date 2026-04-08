@@ -16,7 +16,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="py-12 md:py-20 bg-gradient-to-b from-khaki-light to-background">
         <div className="container mx-auto px-4 text-center">
-          <img src={logo} alt="FuzzFloral" className="h-60 md:h-84 w-auto mx-auto mb-4" />
+          <img src={logo} alt="FuzzFloral" className="h-72 md:h-96 w-auto mx-auto mb-4" />
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto">
             {COMPANY.tagline}
           </p>
