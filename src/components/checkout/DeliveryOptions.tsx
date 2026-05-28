@@ -144,7 +144,11 @@ const DeliveryOptions = ({
                   mode="single"
                   selected={deliveryDate}
                   onSelect={setDeliveryDate}
-                  disabled={(date) => date < tomorrow}
+                  disabled={(date) => {
+                    const d = new Date();
+                    return date < new Date(d.setDate(d.getDate() + 7));
+                  }}
+
                   initialFocus
                   className={cn("p-3 pointer-events-auto")}
                 />
