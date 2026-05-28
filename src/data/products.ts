@@ -1,6 +1,7 @@
 import lavenderLilyBouquet from "@/assets/lavender-lily-bouquet.jpg";
 import babyBlueLilyBouquet from "@/assets/baby-blue-lily-bouquet.jpg";
 import purpleDaisyTulipBouquet from "@/assets/purple-daisy-tulip-bouquet.jpg";
+import pastelWhisper from "@/assets/pastel-whisper.jpeg";
 
 export interface Product {
   id: string;
@@ -35,5 +36,13 @@ export const products: Product[] = [
     stalks: 7,
     price: 33,
     image: purpleDaisyTulipBouquet,
+  },
+    {
+    id: "pastel-whisper",
+    name: "Pastel Whisper",
+    description: "A romantic bouquet of soft rose‑pink blooms, delicately wrapped and expressing sweet affection and quiet devotion",
+    stalks: 7,
+    price: 33,
+    image: pastelWhisper,
   },
 ];
