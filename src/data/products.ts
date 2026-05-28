@@ -40,9 +40,9 @@ export const products: Product[] = [
     {
     id: "pastel-whisper",
     name: "Pastel Whisper",
-    description: "A romantic bouquet of soft rose‑pink blooms, delicately wrapped and expressing sweet affection and quiet devotion",
-    stalks: 7,
-    price: 33,
+    description: "Quiet notes of pastel colours, delicately wrapped in honeycomb",
+    stalks: 9,
+    price: 45,
     image: pastelWhisper,
   },
 ];
