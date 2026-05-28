@@ -23,7 +23,7 @@ const DeliveryBanner = () => {
   return (
     <div className="bg-primary/75 text-primary-foreground py-2 px-4 relative">
       <div className="container mx-auto text-center text-sm font-medium">
-        🚚 Free Islandwide Delivery for orders over $70!
+       Orders have to be made min. 1 week in advance 🚚 Free Islandwide Delivery for orders over $70!
       </div>
       <button
         onClick={handleClose}
