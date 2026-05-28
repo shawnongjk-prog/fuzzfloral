@@ -25,7 +25,9 @@ const DeliveryBanner = () => {
       <div className="container mx-auto text-center text-sm font-medium">
        Orders have to be made min. 1 week in advance
       <br />
-       For urgent orders less than 1 week, additional charges apply. Kindly contact us on Whatsapp for more details.
+       For urgent orders less than 1 week, additional charges apply.
+        <br />
+        Kindly contact us on Whatsapp for urgent orders.
         <br />
       🚚 Free Islandwide Delivery for orders over $70!
       </div>
