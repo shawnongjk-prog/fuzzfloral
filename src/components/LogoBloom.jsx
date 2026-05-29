@@ -1,4 +1,4 @@
-import logo from "fuzzfloral/src/assets/fuzzfloral-logo.png";
+import logo from "../assets/fuzzfloral-logo.png";
 
 const Flower = ({ style, delay }) => {
   return (
