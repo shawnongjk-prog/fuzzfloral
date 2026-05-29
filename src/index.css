@@ -167,43 +167,4 @@
   .border-khaki { border-color: hsl(var(--khaki)); }
   .border-blush { border-color: hsl(var(--blush)); }
   
-  /* 🌸 Logo Animation Utilities */
-
-.logo-container {
-  position: relative;
-  width: 180px;
-  height: 180px;
-  margin: 0 auto;
-}
-
-.logo {
-  width: 100%;
-  display: block;
-  position: relative;
-  z-index: 2;
-}
-
-.flower {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  opacity: 0;
-  transform: scale(0) rotate(-20deg);
-  animation: bloom 0.8s ease forwards, float 3s ease-in-out infinite;
-}
-}
-
-/* 🌸 Animations */
-
-@keyframes bloom {
-  to {
-    opacity: 1;
-    transform: scale(1) rotate(0deg);
-  }
-}
-
-@keyframes float {
-  0% { transform: translateY(0px) scale(1); }
-  50% { transform: translateY(-5px) scale(1.03); }
-  100% { transform: translateY(0px) scale(1); }
 }
