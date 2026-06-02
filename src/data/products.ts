@@ -39,7 +39,7 @@ export const products: Product[] = [
   },
     {
     id: "pastel-whisper",
-    name: "Pastel Whisper",
+    name: "Pastel Whispers",
     description: "Quiet notes of pastel colours, delicately wrapped in honeycomb",
     stalks: 9,
     price: 45,
