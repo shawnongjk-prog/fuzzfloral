@@ -160,7 +160,7 @@ const Checkout = () => {
                   <li>Enter the PayNow number above</li>
                   <li>Pay the total amount: <strong className="text-foreground">{formatPrice(total)}</strong></li>
                   <li>Screenshot your successful payment</li>
-                  <li>WhatsApp us the screenshot with your name</li>
+                  <li>DM us the screenshot with your name</li>
                 </ol>
               </div>
 
@@ -169,7 +169,7 @@ const Checkout = () => {
                 onClick={handleWhatsAppPayment}
                 className="w-full mt-6 btn-whatsapp flex items-center justify-center gap-2"
               >
-                WhatsApp Payment Confirmation
+                Instagram DM Payment Confirmation
               </button>
             </div>
 
