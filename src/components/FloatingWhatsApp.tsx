@@ -1,4 +1,4 @@
-import { MessengeCircle } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { COMPANY } from "@/config";
 
 const FloatingWhatsApp = () => {
