@@ -141,9 +141,10 @@
 @apply text-white px-6 py-3 rounded-lg font-medium transition-all;
   background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
 }
-
 .btn-instagram:hover {
   filter: brightness(1.1);
+  transform: scale(1.02);
+}
 
   }
 
