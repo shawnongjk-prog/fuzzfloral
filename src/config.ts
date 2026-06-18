@@ -4,7 +4,7 @@
 export const COMPANY = {
   name: "FuzzFloral",
   whatsapp: "91440756",
-  whatsappLink: "https://wa.me/91440756",
+  whatsappLink: "https://www.instagram.com/direct/t/17845329669688364/",
   paynowNumber: "91440756",
   currency: "SGD",
   tagline: "Everlasting flowers",
